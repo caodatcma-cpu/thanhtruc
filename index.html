@@ -82,10 +82,6 @@ textarea{
     height:100%;
     object-fit:cover;
 }
-
-.image-box input{
-    display:none;
-}
 </style>
 </head>
 
@@ -109,14 +105,14 @@ textarea{
 <div class="form-group">
 <label>Giới tính:</label>
 <div class="radio-group">
-<label><input type="radio" name="gioitinh" value="Nam">Nam</label>
-<label><input type="radio" name="gioitinh" value="Nữ"checked> Nữ</label>
+<label><input type="radio" name="gioitinh" value="Nam"> Nam</label>
+<label><input type="radio" name="gioitinh" value="Nữ" checked> Nữ</label>
 </div>
 </div>
 
 <div class="form-group">
 <label>Màu yêu thích:</label>
-<input type="text" name="mau" value="Trắng">
+<input type="text" name="mau" value="Xanh dương">
 </div>
 
 <div class="form-group">
@@ -124,17 +120,17 @@ textarea{
 </div>
 
 <div class="checkbox-group">
-<label><input type="checkbox" name="thethao" value="Bóng đá" > Bóng đá</label><br>
-<label><input type="checkbox" name="thethao" value="Cầu lông" > Cầu lông</label><br>
-<label><input type="checkbox" name="thethao" value="Bóng chuyền"> Bóng chuyền</label><br>
-<label><input type="checkbox" name="thethao" value="Ca hát"checked> Ca hát</label><br>
-<label><input type="checkbox" name="thethao" value="Nhảy - Múa"checked> Nhảy - Múa</label><br>
-<label><input type="checkbox" name="thethao" value="Khác"> Khác</label>
+<label><input type="checkbox"> Bóng đá</label><br>
+<label><input type="checkbox" > Cầu lông</label><br>
+<label><input type="checkbox"> Bóng chuyền</label><br>
+<label><input type="checkbox" checked> Ca hát</label><br>
+<label><input type="checkbox" checked> Nhảy - Múa</label><br>
+<label><input type="checkbox"> Khác</label>
 </div>
 
 <div class="form-group">
 <label>Môn học tự tin:</label>
-<input type="text" name="monhoc" value="Vật Lý">
+<input type="text" value="Vật Lý">
 </div>
 
 <div class="form-group">
@@ -143,7 +139,8 @@ textarea{
 </div>
 
 <div class="image-box">
-<img src="thanhtruc.jpg" alt="Ảnh Thái Thanh Trúc" onerror="this.src='https://via.placeholder.com/180?text=Thieu+Anh'">
+<img src="thanhtruc.jpg" alt="Ảnh Phan Thị Tuyết Quyên"
+onerror="this.src='https://via.placeholder.com/180?text=Thieu+Anh'">
 </div>
 
 </div>
@@ -155,3 +152,4 @@ console.log("Trang tâm sự bản thân của Trúc đã sẵn sàng!");
 
 </body>
 </html>
+
